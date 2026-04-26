@@ -145,9 +145,9 @@ model  = model.to(device)
 
 ## 📊 Results
 
-=======================================================
+
   FINAL RESULTS COMPARISON
-=======================================================
+
   Model                    Accuracy       Framework
 -------------------------------------------------------
   Keras MLP                 70.78%   TensorFlow/Keras
