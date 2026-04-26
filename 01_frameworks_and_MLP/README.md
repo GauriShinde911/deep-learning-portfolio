@@ -145,14 +145,12 @@ model  = model.to(device)
 
 ## 📊 Results
 
+## Model Performance Comparison
 
-  FINAL RESULTS COMPARISON
-
-  Model                    Accuracy       Framework
--------------------------------------------------------
-  Keras MLP                 70.78%   TensorFlow/Keras
-  PyTorch MLP               71.43%           PyTorch
-=======================================================
+| Model         | Accuracy | Framework           |
+|--------------|---------:|--------------------|
+| Keras MLP    | 70.78%   | TensorFlow / Keras |
+| PyTorch MLP  | 71.43%   | PyTorch            |
 
 > ✅ Both frameworks achieved similar accuracy — showing that the choice of framework
 > affects workflow, not necessarily results.
